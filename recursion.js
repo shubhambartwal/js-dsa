@@ -52,6 +52,12 @@
 // }
 // console.log(fabonaci(15))
 
-// reverse string
+//  reverse string
+function reverseString(str){
+ if(str.length==0)
+ return ''
+    else return reverseString(str.substring(1))+ str.charAt(0)
+}
+console.log(reverseString("shubham"))
 
 //all possible subset or power set
